@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/logo.svg';
+import logo from 'https://b1416823.smushcdn.com/1416823/wp-content/uploads/2020/12/TSI-final-white-01.png';
 import './navbar.scss';
 
 const Menu = () => (
