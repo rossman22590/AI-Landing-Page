@@ -1,0 +1,55 @@
+.article {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .article__image {
+    width: 100%;
+    height: 100%;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .article__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+    background: var(--color-footer);
+    height: 100%;
+
+    p {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 11.649px;
+      line-height: 35px;
+      color: hsl(0, 0%, 50%);
+    }
+
+    h3 {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 19.3154px;
+      line-height: 30px;
+      color: hsl(0, 0%, 90%);
+      margin-bottom: 5rem;
+      cursor: pointer;
+    }
+
+    p:last-child {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 11.649px;
+      line-height: 35px;
+      color: hsl(0, 0%, 50%);
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.feature {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+ 
+  .feature__title {
+    flex: 1;
+    max-width: 250px;
+    margin-right: 2rem;
+
+    h3 {
+      font-size: 24px;
+      line-height: 30px;
+      letter-spacing: -0.04em;
+      color: #fafafa;
+    }
+
+    div {
+      width: 38px;
+      height: 3px;
+      background: var(--gradient-bar);
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      margin-bottom: 0.7rem;
+    }
+  }
+
+  .feature__text {
+    flex: 2;
+    max-width: 390px;
+    display: flex;
+
+    p {
+      font-weight: 400;
+      color: rgb(129, 175, 221);
+      margin-top: 2rem;
+    }
+  }
+}
